@@ -1,0 +1,10 @@
+.git/
+.idea/
+logs/
+asciidoc/
+*.md
+*.iml
+.gitignore
+**/Dockerfile*
+**/docker-compose*.yml
+**/application-*.properties
