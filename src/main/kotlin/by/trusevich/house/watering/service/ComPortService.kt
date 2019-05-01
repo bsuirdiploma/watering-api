@@ -1,7 +1,6 @@
 package by.trusevich.house.watering.service
 
 import by.trusevich.house.core.util.lazyLogger
-import by.trusevich.house.watering.repository.WateringRepository
 import jssc.SerialPort
 import org.springframework.beans.factory.annotation.Value
 import org.springframework.stereotype.Service

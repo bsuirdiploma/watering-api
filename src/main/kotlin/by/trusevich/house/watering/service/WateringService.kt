@@ -59,5 +59,4 @@ class WateringService(
             log.info("Created scheduled job to stop watering at $timeToStop for port $wateringPortName")
         }
     }
-
 }

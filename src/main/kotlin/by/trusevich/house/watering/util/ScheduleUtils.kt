@@ -9,7 +9,6 @@ fun removeScheduler(wateringId: Long) = SCHEDULERS_HOLDER[wateringId]?.let {
     it.cancel(false)
 
     SCHEDULERS_HOLDER.remove(wateringId)
-
 } ?: throw EntityNotFoundException()
 
 fun saveScheduler(wateringId: Long, scheduledTask: ScheduledFuture<*>) =

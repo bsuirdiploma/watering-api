@@ -113,7 +113,7 @@
                                 <locations>
                                     <location>by.trusevich.house</location>
                                 </locations>
-                                <host>localhost:8080</host>
+                                <host>localhost:8082</host>
                                 <info>
                                     <title>${project.name}</title>
                                     <version>UNDEFINED</version>

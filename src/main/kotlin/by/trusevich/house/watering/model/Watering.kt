@@ -6,9 +6,6 @@ import by.trusevich.house.watering.validation.CronValid
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties
 import com.fasterxml.jackson.annotation.JsonInclude
 import com.fasterxml.jackson.annotation.JsonInclude.Include.NON_EMPTY
-import com.fasterxml.jackson.annotation.JsonProperty
-import com.fasterxml.jackson.annotation.JsonProperty.Access.READ_ONLY
-import io.swagger.annotations.ApiModelProperty
 import org.hibernate.envers.Audited
 import org.hibernate.validator.constraints.Length
 import org.hibernate.validator.constraints.Range
