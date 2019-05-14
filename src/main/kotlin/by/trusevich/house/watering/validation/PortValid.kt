@@ -16,7 +16,7 @@ import kotlin.reflect.KClass
 @Retention
 @Target(PROPERTY_GETTER, FIELD)
 @MustBeDocumented
-@Constraint(validatedBy = [NameUniqueValidator::class])
+@Constraint(validatedBy = [PortValidator::class])
 annotation class PortValid(
     @Suppress("unused") val message: String = "Port is not available",
     @Suppress("unused") val groups: Array<KClass<*>> = [],

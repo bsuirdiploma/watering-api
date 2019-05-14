@@ -53,7 +53,7 @@ class WateringController(private val wateringService: WateringService) {
         ApiResponse(code = SC_BAD_REQUEST, message = MALFORMED_REASON, response = ErrorDetails::class)
     )
     @PostMapping(consumes = [APPLICATION_JSON_UTF8_VALUE], produces = [APPLICATION_JSON_UTF8_VALUE])
-    fun createWatering(@Valid @ApiParam(hidden = true) @RequestBody watering: Watering) =
+    fun createWatering(@Valid @RequestBody watering: Watering) =
         wateringService.create(watering)
 
     @TokenHeaderImplicit
